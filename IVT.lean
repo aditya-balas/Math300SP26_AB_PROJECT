@@ -48,7 +48,10 @@ Though I have some problems with the approach, I decided to introduce (h : A.det
 it makes things easier for me. It is true that a finite-dimensional matrix cannot be invertible if its determinant is zero,
 so this is not a wholly unreasonable thing to add as the hypothesis.
 
-
+I ran into a significant issue when attempting to prove the basis portion of the theorem. Not only am I entirely unable
+to work with bases on my own, unlike the other objects here (a proof of this would have to be entirely AI-generated),
+I also simply run into errors every time I try to add a theorem about it or attempt to prove said theorem, so it seems
+relying on Mathlib for this one would also be very difficult.
 -/
 
 set_option linter.style.longLine false
